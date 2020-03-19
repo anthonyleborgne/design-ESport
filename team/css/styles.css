@@ -1,0 +1,108 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.team-intro{
+    padding: 50px;
+}
+
+
+.team-intro > h3{
+    font-size: 72px;
+    color: rgb(255, 53, 0);
+    text-transform: uppercase;
+    font-family: nimbus-sans-condensed,impact,sans-serif;
+    font-weight: 500;
+}
+
+.team-items > .row{
+    margin-top: 7%;
+}
+
+a{
+    color: white!important;
+}
+
+.btn{
+    border: 1px solid rgb(255, 53, 0);
+    color: #c4c4c4!important;
+    padding: 15px 25px;
+    margin-top: 0px;
+    transition: 1s color;
+    height: 60px;
+    width: 200px;
+    border-radius: 2px;
+    font-size: 20px;
+    
+}
+
+.btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff!important;
+}
+
+.btn-primary{
+    background-color: rgb(255, 53, 0);
+    color: white!important;
+}
+
+.btn-primary:hover{
+    background-color: rgb(255, 53, 0);
+    color: white!important;
+    border: none;
+}
+
+.btn-profile{
+    color: white!important;
+}
+
+.team{
+    display: none;
+}
+
+.team-player{
+    margin-top: 0%!important;
+    position: relative;
+}
+
+.team-player:nth-child(1){
+    margin-left: 50px;
+}
+
+.team-player:nth-child(1n){
+    margin-top: 5%;
+}
+
+.team-player:first-child{
+    margin-left: 17%!important;
+}
+
+.team-player:not(:first-child){
+    margin-left: -15%;
+}
+
+.team-player > img{
+    height: 300px;
+    width: 300px;
+}
+
+.team-player > h3{
+    color: white!important;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+
+
+.background{
+    background-color: black!important;
+    margin-top: -7.1%;
+    height: 700px!important;
+}
+
+.background > .row > .team-player{
+    margin-top: 10%!important;
+}
+

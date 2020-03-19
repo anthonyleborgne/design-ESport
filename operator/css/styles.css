@@ -1,0 +1,253 @@
+/** General **/
+*{
+    box-sizing: border-box;
+    font-family: noto_sansbold,sans-serif;
+}
+
+h1,h2{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/** Operator - présentation **/
+
+
+.presentation{
+    background: url(../img/wallpaper.jpg);
+    height:600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.operator{
+    margin-left:25px;
+    margin-top:25px;
+}
+
+.operator, .operator__avatar{
+    float: left;
+}
+
+.operator-header-icons-name{
+    display: flex;
+
+    align-items: center;
+}
+
+.operator-header-icons-name > h2{
+    margin-left: 20px;
+    margin-top: -20px;
+} 
+
+
+
+.operator__header__infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.operator__header__side{
+    display: flex;
+}
+
+.operator__header__side__title span, .operator__header__side__detail span{
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: noto_sansbold,sans-serif;
+}
+
+.operator__header__side__detail, .operator__header__elite{
+    margin-left: 20px!important;
+} 
+
+.operator__header__elite{
+    border: 1px solid #e38c00;
+    color: white;
+    background-color: #534225;
+    border-radius: 2px;
+    padding: 1px 7px 2px;
+    text-transform: uppercase;
+    transition:  background-color .15s ease-in;
+}
+
+.operator__header__elite:hover{
+    background-color: #e38c00;
+    cursor: pointer;
+}
+
+.operator__header__role{
+    margin-top: 20px;
+}
+
+.operator__header__role span{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.operator__header__role span::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 600px;
+    background-color: #595e66;
+}
+
+.operator__header__role span, .operator__header__roles{
+    color: white;
+}
+
+.operator__header__roles p{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.operator__header__stats{
+    display: flex;
+}
+
+.operator__header__stat{
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.operator__header__stat:not(:first-child){
+    margin-left: 20px;
+}
+
+.operator__header__stat__title span::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 187px;
+    background-color: #595e66;
+}
+
+.rater{
+    display: flex;
+}
+
+.rater > div{
+    margin-left: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.rater > div::after{
+    content: '';
+    display: block;
+    border:1px solid #424850;
+    border-radius: 50px;
+    height: 14px;
+    width: 14px;
+}
+
+.rater-star{
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    border:3px solid #424850;
+    margin-left:2px;
+    margin-top: 2px;
+    border-radius: 50px;
+}
+
+.is-active{
+    background-color: #fff!important;
+}
+
+/** Operator - loadout **/
+section:nth-child(2){
+    background: url(../img/wallpaper2.jpg);
+    height:800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 10;
+    position: relative;
+}
+
+.operator_categories{
+    display: flex;
+    padding: 100px;
+}
+
+.operator__loadout__title{
+    text-align: center;
+    font-size: 50px;
+    line-height: 2px;
+    text-transform: uppercase;
+}
+
+.operator__loadout__category{
+    padding: 20px;
+}
+
+.operator__loadout__category__title{
+    color: #7a7e87;
+    font-size: 19px;
+    font-weight: 800;
+    text-transform: uppercase!important;
+}
+
+
+.operator__loadout__weapon{
+    border: 1px solid #1b5570;
+    height: 160px;
+    width:250px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.operator__loadout__weapon > p{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.operator__loadout__weapon > p:nth-child(1){
+    text-transform: uppercase;
+}
+
+.operator__loadout__weapon > p:nth-child(1n){
+    margin-bottom: 10px!important;
+}
+
+
+
+.gadget__sections__items{
+    background-color: rgba(10,15,20,.75)!important;
+    width: 100%!important;
+    height: 300px;
+    position: absolute;
+    
+    margin-left: -40px;
+    margin-top: 30px;
+}
+
+.gadget__sections__item{
+    display: flex;
+    
+    margin-top: 5%;
+}
+
+.gadget__sections__item__image{
+    padding: 100px;
+}
+
+.gadget__sections__item__image > img{
+    width: 400px;
+    margin-top: -30%;
+    border: 1px solid #347090;
+    background-color: #090e12;
+    padding: 20px;
+}
+
+.gadget__sections__item__content > p{
+    color: white;
+    font-weight: 400;
+    line-height: 1.5rem!important;
+}
