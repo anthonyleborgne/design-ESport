@@ -2,14 +2,141 @@
 *{
     box-sizing: border-box;
     font-family: noto_sansbold,sans-serif;
-}
-
-h1,h2{
+    font-size: 1rem!important;
     color: white;
-    text-transform: uppercase;
 }
 
+body{
+    background-color: black;
+}
 
 /** Operator - présentation **/
 
 
+.presentation{
+    background:url(https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4jQ6tmpMAn8fwTFxi39UnJ/2d0c9bc54e23b97dfb7d6fb4374e8e3f/r6-maps-header-consulate.jpg) no-repeat;
+    height:400px;
+    position: relative;
+    z-index: 10;
+}
+
+.map{
+    display: flex;
+    background-color: rgba(16,26,36,.5)!important;
+    height: 60%;
+    width:60%;
+    position: absolute;
+    margin-left: 25%;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.map__details__content__image > img {
+    width: 450px;
+}
+
+.map__map__details__content{
+    padding: 30px;
+
+}
+
+.map__map__details__content > h2{
+    font-size: 30px!important;
+    text-transform: uppercase;
+}
+
+b{
+    font-weight: 800;
+    font-size: 11px!important;
+}
+
+
+.map__details__content__location::before{
+    content: '';
+    height: 1px;
+    margin-top: 5px;
+    background-color: #6c5f5c;
+    display: block;
+}
+
+.map__details__content__location::after{
+    content: '';
+    height: 1px;
+    margin-top: 5px;
+    background-color: #6c5f5c;
+    display: block;
+}
+
+.map__details__content__released::after{
+    content: '';
+    height: 1px;
+    margin-top: 5px;
+    background-color: #6c5f5c;
+    display: block;
+}
+
+.map__details__content__playlists::after{
+    content: '';
+    height: 1px;
+    margin-top: 5px;
+    background-color: #6c5f5c;
+    display: block;
+}
+
+.map__details__content__text > span{
+    font-size: 0.78rem!important;
+    line-height: 25px;
+}
+
+.map__details__content__location > span, .map__details__content__released > span, .map__details__content__playlists > span{
+    font-size: 14px!important;
+}
+
+
+
+.map__plans{
+    background:url(../img/wallpaper2.jpg);
+    height: 400px;
+    position: relative;
+    margin-top: -3rem;
+    padding: 5px;
+}
+
+.map__plans > h2{
+    font-size: 50px!important;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.map__plans__items{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2.8rem;
+    width: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+
+.map__plans__item > img{
+    width: 300px;
+}
+
+
+.map__plans__item:first-child > img{
+    margin-left: 13rem;
+}
+
+.map__plans__item:not(:first-child) > img{
+    margin-left: 5rem;
+}
+
+.map__plans__item:first-child > span{
+    margin-left: 13rem;
+}
+
+.map__plans__item:not(:first-child) > span{
+    margin-left: 5rem;
+}
