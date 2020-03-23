@@ -1,4 +1,17 @@
 # design - Esport
 
-- team (inspirêt du site de g2)
-- operator (inspirer du site officiel r6)
+je m'inspire des sites sur rainbow six siege
+
+## team
+
+## operator
+
+- ![image](img2.png)
+
+
+- ![image](img3.png)
+
+
+## design map
+
+- ![image](img.png)
